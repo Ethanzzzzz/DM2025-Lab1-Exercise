@@ -26,7 +26,7 @@ def check_missing_values(row):
             counter+=1
     return ("The amoung of missing records is: ", counter)
 
-def tokenize_text(text, remove_stopwords=False):
+def tokenize_text(text, remove_stopwords=True):
     """
     Tokenize text using the nltk library
     """
